@@ -1,0 +1,74 @@
+# ChatGPT Prompt
+
+I have a resume in plain text format. Please parse the content and convert it into a structured JSON format. The JSON should contain the following fields: Name, Contact Information, Summary, Education, Work Experience, Skills, Certifications, and Additional Information. Here is the resume:
+
+[I have a resume in plain text format. Please parse the content and convert it into a structured JSON format. The JSON should contain the following fields: Name, Contact Information, Summary, Education, Work Experience, Skills, Certifications, and Additional Information. Here is the resume:
+
+Aditya Raj Singh
+Chhatarpur, New Delhi
+
+Summary:
+Experienced software engineer with a strong background in developing scalable applications.
+
+Education:
+B.Tech. in Computer Science, SRM University, 2021-2025
+
+Work Experience:
+Software Engineer, TechCorp, 2019-Present
+- Developed a web application that handles millions of users.
+- Improved system performance by 30%.
+
+Skills:
+- Python
+- Java
+- SQL
+
+Certifications:
+- AWS Certified Solutions Architect
+
+Additional Information:
+- Volunteer at Local Code Club
+]
+
+Please provide the JSON output.
+
+
+
+#JSON Output
+
+{
+    "Name": "Aditya Raj Singh",
+    "Contact Information": {
+        "Address": "Chhatarpur, New Delhi"
+    },
+    "Summary": "Experienced software engineer with a strong background in developing scalable applications.",
+    "Education": [
+        {
+            "Degree": "B.Tech. in Computer Science",
+            "Institution": "SRM University",
+            "Years": "2021-2025"
+        }
+    ],
+    "Work Experience": [
+        {
+            "Title": "Software Engineer",
+            "Company": "TechCorp",
+            "Years": "2019-Present",
+            "Responsibilities": [
+                "Developed a web application that handles millions of users.",
+                "Improved system performance by 30%."
+            ]
+        }
+    ],
+    "Skills": [
+        "Python",
+        "Java",
+        "SQL"
+    ],
+    "Certifications": [
+        "AWS Certified Solutions Architect"
+    ],
+    "Additional Information": [
+        "Volunteer at Local Code Club"
+    ]
+}
